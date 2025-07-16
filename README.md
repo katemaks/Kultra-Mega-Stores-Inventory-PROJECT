@@ -1,8 +1,7 @@
 # Kultra-Mega-Stores-Inventory-PROJECT
-This is a complete Analysis documentation on the project Kultra-Mega-Stores-Inventory
-with Digital Skillup Africa.
+This is a complete Analysis documentation on the project Kultra-Mega-Stores-Inventory with Digital Skillup Africa (DSA).
 
-I have learnt quite a number of things ranging from Ms Excel to SQL and now to my Portfolio Building
+This is my first project as a practical handson to validate the extent of the understanding of the classes i had with DSA. From the training, I find SQL classes most easier followed by Power-BI and this gives me the confidence to start with the SQL project first.
 
 ## Project Topic: E commerce Sales Analysis
 
