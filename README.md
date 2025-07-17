@@ -1,13 +1,15 @@
 # Kultra-Mega-Stores-Inventory-PROJECT
 This is a complete Analysis documentation on the project Kultra-Mega-Stores-Inventory with Digital Skillup Africa (DSA).
 
-This is my first project as a practical handson to validate the extent of the understanding of the classes i had with DSA. From the training, I find SQL classes most easier followed by Power-BI and this gives me the confidence to start with the SQL project first.
+This is my first project as a practical hands-on to validate the extent of the understanding of the classes I had with DSA. 
+From the training, I find SQL classes most easier followed by Power-BI and this gives me the confidence to start with the SQL project first.
 
-## Project Topic: E commerce Sales Analysis
+## Project Topic: Inventory Analysis
 
 ### Project Overview
-This Data Analysis project aims to generate insight into the sales performance of the E commerce project over the past year.
-By analysing the various parameters in the data received, we seek to gather enough insight to make reasonable decisions which then enable us to tell compelling stories around our data from the insight gotten and to know the best performance from our data.
+This Inventory Analysis project aims to analyze the given data and present key insights and findings of the Inventory report orders from 2009 t0 2012 of Kultra Mega Stores (KMS) which specialises in office supplies and furniture with its headquarters in Lagos.
+By analysing the various parameters in the data given, I seek to gather enough insight and know the best performance orders from the stipulated year and make reasonable recommendations based on the insight gotten to support the Abuja division of 
+KMS.
 
 ### Data Sources
 The primary source of Data used here is Data Sale.csv and this is an open source data that can be freely downloaded from an open source online such as kaggle or FRED or any other data repository site.
