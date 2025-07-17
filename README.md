@@ -7,7 +7,7 @@ From the training, I find SQL classes most easier followed by Power-BI and this 
 ## Project Topic: Inventory Analysis
 
 ### Project Overview
-This Inventory Analysis project aims to analyze the given data and present key insights and findings of the Inventory report orders from 2009 t0 2012 of Kultra Mega Stores (KMS) which specialises in office supplies and furniture with its headquarters in Lagos.
+This Inventory Analysis project aims to analyze the given data and present key insights and findings of the Inventory report orders from 2009 to 2012 of Kultra Mega Stores (KMS) which specialises in office supplies and furniture with its headquarters in Lagos.
 By analysing the various parameters in the data given, I seek to gather enough insight and know the best performance orders from the stipulated year and make reasonable recommendations based on the insight gotten to support the Abuja division of 
 KMS.
 
