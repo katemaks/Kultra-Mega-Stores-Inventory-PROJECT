@@ -172,7 +172,7 @@ SELECT
 ---- 6. Who are the most valuable customers, and what products or services do they typically 
 ----    purchase?
         
-         --- select * from KMS1
+      select * from KMS1
 ``` SQL
          select Customer_Name, sum(profit) AS TotalProfit, sum(Sales) AS TotalSales
          from KMS1
