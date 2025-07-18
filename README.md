@@ -45,7 +45,41 @@ This is where I included some basic lines of code or queries or even some of the
 ``` SQL
 Alter table KMS1
 Alter Column Sales
-SELECT A,B,C
-WHERE A> 15
+
+alter table KMS1
+alter column Sales decimal (10,2)
+
+select * from KMS1
+
+alter table KMS1
+alter column Discount decimal (10,2)
+
+ SELECT * FROM KMS1
+
+ ---1. Which product category had the highest sales? 
+
+ select Product_Category,sum(Sales) AS HighestSales
+ from KMS1
+ group by Product_Category
+ order by HighestSales desc
+
+ ---    Ans: is Technology
+
+ select TOP 3
+ Region, sum(Sales) AS TotalSales
+ from KMS1
+ group by Region
+ order by TotalSales desc
+
+ --- Ans: Top 3 Regions are West,Ontario and Prarie
+
+ select TOP 3 
+ Region, sum(Sales) AS TotalSales
+ from KMS1
+ group by Region
+ order by TotalSales asc
+
+ --- Bottom 3 Regions are Nunavut, Northwest Territories and Yukon
+
 
 ```
