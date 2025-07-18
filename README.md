@@ -69,7 +69,7 @@ alter column Product_Base_Margin decimal (10,2)
 ```
 
 ### DATA ANALYSIS EXPRESSION (DAX)
-I then wrote the queries to answer some questions highlighted above after cleaning my Data.
+I then wrote the queries below to answer some questions highlighted above after cleaning my Data.
 
 ``` SQL
 select * from KMS1
@@ -227,19 +227,24 @@ SELECT
 
 --- 9. Which consumer customer was the most profitable one? 
 
+``` SQL        
          select TOP 1
          Customer_Name,Customer_Segment,sum(Profit) AS Most_Profitable
          from KMS1
          where Customer_Segment = 'Consumer'
          GROUP BY Customer_Name, Customer_Segment 
          order by Most_Profitable desc
+```
  
 
 ---- 10. Which customer returned items, and what segment do they belong to?
 
+``` SQL
          select *from KMS1
          select * from Order_Status
+```
 
+``` SQL
          select  KMS1.Order_ID,
          KMS1.Order_Date,
          KMS1.Customer_Name,
@@ -250,6 +255,7 @@ SELECT
          JOIN Order_Status
          ON Order_Status.Order_ID = KMS1.Order_ID
          WHERE Status = 'Returned'
+```
  
 ---- 11. If the delivery truck is the most economical but the slowest shipping method and 
 ---  Express Air is the fastest but the most expensive one, do you think the company 
