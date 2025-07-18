@@ -113,21 +113,25 @@ SELECT
 ```
  --- Ans: Top 3 Regions are West,Ontario and Prarie
 
+``` SQL
  select TOP 3 
  Region, sum(Sales) AS TotalSales
  from KMS1
  group by Region
  order by TotalSales asc
+```
 
  --- Bottom 3 Regions are Nunavut, Northwest Territories and Yukon
 
  ---3. What were the total sales of appliances in Ontario?
 
+``` SQL
  select Region,sum(Sales) AS TotalSales
  from KMS1
  group by Region
  HAVING Region = 'Ontario'
 
+```
             ---Ans: Total Sales of appliances in Ontario = 3063212.60 
 
  ---- 4. Advise the management of KMS on what to do to increase the revenue from the bottom 
