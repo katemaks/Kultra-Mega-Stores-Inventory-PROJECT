@@ -152,11 +152,10 @@ SELECT
 ```
 
  #### The Management of KMS should do the following:
- 
-     -  Introduce customer service support to establish relationship with them
-     -  Offer targeted discount to them
-     - Give rewards to encourage repeated transaction
-     - Seek their opinion of how best to improve their services to them
+   - Introduce customer service support to establish relationship with them
+   - Offer targeted discount to them
+   - Give rewards to encourage repeated transaction
+   - Seek their opinion of how best to improve their services to them
 
   
  --- 5. KMS incurred the most shipping cost using which shipping method?
