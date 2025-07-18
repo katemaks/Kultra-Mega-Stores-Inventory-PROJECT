@@ -93,8 +93,9 @@ SELECT
      
 
 
-
+```
  SELECT * FROM KMS1
+ ```
 
  ---1. Which product category had the highest sales? 
 
