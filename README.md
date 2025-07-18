@@ -287,3 +287,10 @@ SELECT
             ORDER BY Ship_Mode,Order_Priority
 
 ```
+
+#### From the above query, 
+- the company did not appropriately spent the shipping costs based on the Order Priority because critical orders are being mostly shipped via Delivery Truck which is the slowest,though most economical
+  -- but ideally,they should have prioritize shipping methods based on Order Priority such that Critical Orders are shipped
+ -- via express Air or fastest method, while High-Priority Orders should be by Regular Air or faster method and Medium or low
+ --- Priority Orders should be delivered by Delivery Truck or slower method. They will be wasting resources if
+--- Non-Critical Orders are shipped via Express Air, though fastest but most expensive.
