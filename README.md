@@ -151,7 +151,8 @@ SELECT
       order by TotalProfit asc
 ```
 
- --- The Management of KMS should do the following:
+ #### The Management of KMS should do the following:
+ 
      - Introduce customer service support to establish relationship with them
      - Offer targeted discount to them
      - Give rewards to encourage repeated transaction
