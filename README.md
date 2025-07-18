@@ -71,11 +71,14 @@ alter column Product_Base_Margin decimal (10,2)
 ### DATA ANALYSIS EXPRESSION (DAX)
 I then wrote the queries to answer some questions highlighted above after cleaning my Data.
 
+``` SQL
 select * from KMS1
 WHERE Product_Base_Margin IS NULL
 
 select * from KMS1
+```
 
+``` SQL
 SELECT
       Order_Quantity,
       Sales,
@@ -86,10 +89,12 @@ SELECT
       Product_Base_Margin
       FROM KMS1
       where Product_Base_Margin IS NULL
+```
 
+``` SQL
      ALTER TABLE [dbo].[KMS1]
      ALTER COLUMN Product_Base_Margin decimal (10,2) NOT NULL
-
+```
  ---1. Which product category had the highest sales?
 
  ``` SQL
