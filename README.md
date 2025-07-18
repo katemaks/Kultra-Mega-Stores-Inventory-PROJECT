@@ -104,12 +104,13 @@ SELECT
 
 ---2. What are the Top 3 and Bottom 3 regions in terms of sales?
 
+``` SQL
  select TOP 3
  Region, sum(Sales) AS TotalSales
  from KMS1
  group by Region
  order by TotalSales desc
-
+```
  --- Ans: Top 3 Regions are West,Ontario and Prarie
 
  select TOP 3 
