@@ -171,7 +171,8 @@ SELECT
 
 ---- 6. Who are the most valuable customers, and what products or services do they typically 
 ----    purchase?
-         select * from KMS1
+        
+         --- select * from KMS1
 ``` SQL
          select Customer_Name, sum(profit) AS TotalProfit, sum(Sales) AS TotalSales
          from KMS1
@@ -187,11 +188,13 @@ SELECT
 
 --- 7. Which small business customer had the highest sales?
 
+``` SQL
        select Customer_Name,sum(Sales) AS TotalSales
        from KMS1
        where Customer_Segment = 'Small Business'
        GROUP BY Customer_Name 
        order by TotalSales desc
+```
 
 --- 8. Which Corporate Customer placed the most number of orders in 2009 – 2012?
 
