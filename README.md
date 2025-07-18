@@ -138,12 +138,13 @@ SELECT
  --- 10 customers
 
       select * from KMS1
-
+``` SQL
       select Top 10
       Customer_Name, Product_Name, Product_Category, Order_Priority, Ship_Mode, Shipping_Cost, sum(Profit) AS TotalProfit
       from KMS1
       group by Customer_Name, Product_Name, Product_Category, Order_Priority, Ship_Mode, Shipping_Cost 
       order by TotalProfit asc
+```
 
  --- The Management of KMS should do the following:
  --- i) Introduce customer service support to establish relationship with them
@@ -154,11 +155,13 @@ SELECT
   
  --- 5. KMS incurred the most shipping cost using which shipping method?
 
+``` SQL
       select Ship_Mode,sum(Shipping_Cost) AS TotalShipping_Cost
       from KMS1
       GROUP BY Ship_Mode
       order by TotalShipping_Cost desc
 
+```
    --- Ans: KMS incurred the most shipping cost by Delivery Truck
 
 ---- 6. Who are the most valuable customers, and what products or services do they typically 
