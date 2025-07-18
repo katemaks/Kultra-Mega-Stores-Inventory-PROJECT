@@ -290,3 +290,14 @@ SELECT
 
 #### From the above last query to answer question 11, I can Say that: 
 - the company did not appropriately spent the shipping costs based on the Order Priority because critical orders are being mostly shipped via Delivery Truck which is the slowest, though most economical but ideally, they should have prioritize shipping methods based on Order Priority such that Critical Orders are shipped via express Air or fastest method, while High-Priority Orders should be by Regular Air or faster method and Medium or low Priority Orders should be delivered by Delivery Truck or slower method. They will be wasting resources if Non-Critical Orders are shipped via Express Air, though fastest but most expensive.
+
+
+### Result/Findings
+1. Regions with low sales especially Nunavut, Northwest Territories and Yukon regions where orders is least, the Business Manager should concentrate more on these regions by giving rewards to encourage repeated transactions and introduce customer service support to establish relationship with their customers so as to increase orders in subsequent transactions.
+2. The least ordered Product-Cateogory is Office Supplies, the Business Manager should carry out a market survey to know why this is so; maybe it is not a value to that community and so invest more on products that are mostly ordered.
+3. All the most valuable customers should be offered targeted discount on their orders and seek their opinions on how best to serve them better.
+4. There is a setback in sales as a result of returned products, the Business Manager should find out why do they returned those orders and create possible reversal equations based on the complains.
+
+### Recommendations
+Based on the analysis, the company should prioritize shipping methods based on Order Priority such that Critical Orders are shipped through fastest method while Non-Critical Orders be shipped via inexpensive means.
+
