@@ -66,7 +66,9 @@ alter column Shipping_Cost decimal (10,2)
 alter table KMS1
 alter column Product_Base_Margin decimal (10,2)
 
-**### DAX**
+```
+
+### DATA ANALYSIS EXPRESSION (DAX)
 I then wrote the queries to answer some questions highlighted above after cleaning my Data.
 
 select * from KMS1
