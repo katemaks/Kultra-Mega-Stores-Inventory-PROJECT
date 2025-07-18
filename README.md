@@ -203,11 +203,19 @@ SELECT
 
 ``` SQL
     alter table KMS1
-       add Order_Year int
+    add Order_Year int
+```
+
+``` SQL
        select * from KMS1
+```
+
+``` SQL
        UPDATE KMS1
        SET Order_Year = year(Order_Date)
+```
 
+``` SQL
        select
           Customer_Name,Customer_Segment,count(DISTINCT Order_Year) AS Sumed_Year,
           sum(Order_Quantity) AS Most_Orders
