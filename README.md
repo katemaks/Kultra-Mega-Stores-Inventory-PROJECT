@@ -71,6 +71,7 @@ alter column Product_Base_Margin decimal (10,2)
 ### DATA ANALYSIS EXPRESSION (DAX)
 I then wrote the queries to answer some questions highlighted above after cleaning my Data.
 
+```
 select * from KMS1
 WHERE Product_Base_Margin IS NULL
 
@@ -249,6 +250,5 @@ SELECT
             ORDER BY Ship_Mode,Order_Priority 
 
  --- Bottom 3 Regions are Nunavut, Northwest Territories and Yukon
-
 
 ```
