@@ -141,8 +141,9 @@ SELECT
 
  ---- 4. Advise the management of KMS on what to do to increase the revenue from the bottom 
  --- 10 customers
-
+``` SQL
       select * from KMS1
+```
 ``` SQL
       select Top 10
       Customer_Name, Product_Name, Product_Category, Order_Priority, Ship_Mode, Shipping_Cost, sum(Profit) AS TotalProfit
@@ -171,8 +172,10 @@ SELECT
 
 ---- 6. Who are the most valuable customers, and what products or services do they typically 
 ----    purchase?
-        
+``` SQL
       select * from KMS1
+```
+
 ``` SQL
          select Customer_Name, sum(profit) AS TotalProfit, sum(Sales) AS TotalSales
          from KMS1
@@ -198,7 +201,8 @@ SELECT
 
 --- 8. Which Corporate Customer placed the most number of orders in 2009 – 2012?
 
-       alter table KMS1
+``` SQL
+    alter table KMS1
        add Order_Year int
        select * from KMS1
        UPDATE KMS1
@@ -211,6 +215,7 @@ SELECT
           WHERE Customer_Segment = 'Corporate'
           GROUP BY Customer_Name,Customer_Segment
           ORDER BY Most_Orders desc
+```
 
 --- 9. Which consumer customer was the most profitable one? 
 
