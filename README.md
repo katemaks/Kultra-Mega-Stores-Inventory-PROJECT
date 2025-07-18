@@ -172,7 +172,7 @@ SELECT
 ---- 6. Who are the most valuable customers, and what products or services do they typically 
 ----    purchase?
          select * from KMS1
-
+``` SQL
          select Customer_Name, sum(profit) AS TotalProfit, sum(Sales) AS TotalSales
          from KMS1
          GROUP BY Customer_Name
@@ -182,6 +182,7 @@ SELECT
          from KMS1
          GROUP BY Product_Name
          order by TotalProfit desc
+```
 
 
 --- 7. Which small business customer had the highest sales?
