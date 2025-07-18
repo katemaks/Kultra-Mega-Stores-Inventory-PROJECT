@@ -260,28 +260,30 @@ SELECT
 ---- 11. If the delivery truck is the most economical but the slowest shipping method and 
 ---  Express Air is the fastest but the most expensive one, do you think the company 
 ----  appropriately spent shipping costs based on the Order Priority? Explain your answer
-         
+
+``` SQL           
          select * from KMS1
+```
     --- Finding the relationship between ShipMode, OrderPriority and Shipping Cost
-        
+
+``` SQL
          select Ship_Mode, Order_Priority,Avg(Shipping_Cost) AS AvgShipping_Cost
          from KMS1
          GROUP BY Ship_Mode,Order_Priority
+```
 
-    --- We can then calaculate each average shipcost and order priority
-
+    --- We can then calculate each average shipcost and order priority
+``` SQL
          select Ship_Mode,Avg(Shipping_Cost) AS AvgShipping_Cost
          from KMS1
          GROUP BY Ship_Mode
          ORDER BY AvgShipping_Cost desc
+```
 
-
-
-                    select Ship_Mode,Order_Priority,Avg(Shipping_Cost) AS AvgShipping_Cost
+``` SQL
+       select Ship_Mode,Order_Priority,Avg(Shipping_Cost) AS AvgShipping_Cost
             from KMS1
             GROUP BY Ship_Mode,Order_Priority
-            ORDER BY Ship_Mode,Order_Priority 
-
- --- Bottom 3 Regions are Nunavut, Northwest Territories and Yukon
+            ORDER BY Ship_Mode,Order_Priority
 
 ```
